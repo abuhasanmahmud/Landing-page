@@ -6,7 +6,7 @@ import axios from "axios";
 const page = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
-  // console.log("dataa", data);
+  console.log("dataa", data);
 
   useEffect(() => {
     const fetchData = async () => {
